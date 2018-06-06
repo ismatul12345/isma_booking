@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ismatul.booking_futsal.MainActivity">
+
+    <TextView
+        android:id="@+id/txt_nama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Nama"
+        android:textSize="26dp"
+        android:layout_marginTop="20dp"
+
+        />
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tx_nama"
+        android:layout_marginLeft="120dp"
+        android:textSize="24dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/btn_Tanggal"
+        android:layout_below="@+id/txt_nama"
+        android:layout_marginLeft="20dp"
+        android:text="Tanggal"/>
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_tgl"
+        android:layout_marginLeft="120dp"
+        android:textSize="24dp"
+        android:layout_below="@+id/tx_nama"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:id="@+id/btn_Jam"
+        android:layout_marginLeft="20dp"
+        android:text="Jam"
+        android:layout_below="@+id/btn_Tanggal"/>
+
+    <EditText
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_Jam"
+        android:textSize="24dp"
+        android:layout_marginLeft="120dp"
+        android:layout_below="@+id/txt_tgl"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:id="@+id/btn_Pesan"
+    android:layout_marginTop="160dp"
+    android:layout_centerHorizontal="true"
+    android:layout_below="@+id/btn_Tanggal"
+    android:background="#FF6600"
+    android:textColor="#FFFFFF"
+    android:textSize="20dp"
+    android:text="Pesan"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lap"
+        android:layout_marginLeft="20dp"
+        android:text="Lapangan"
+        android:textSize="25dp"
+        android:layout_below="@+id/btn_Jam"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="200dp"
+        android:layout_below="@+id/txt_Jam">
+
+    </Spinner>
+
+
+</RelativeLayout>

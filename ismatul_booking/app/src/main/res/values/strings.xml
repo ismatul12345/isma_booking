@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Booking_Futsal</string>
+    <string-array name="lapangan_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+    </string-array>
+</resources>

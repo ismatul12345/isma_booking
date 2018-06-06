@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_nama"
+        android:text="Nama"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_nama"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="130dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_tgl"
+        android:text="Tanggal"
+        android:layout_below="@+id/v_nama"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_tgl"
+        android:layout_below="@+id/t_nama"
+        android:layout_marginLeft="130dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_jam"
+        android:text="Jam"
+        android:layout_below="@+id/v_tgl"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_jam"
+        android:layout_below="@+id/t_tgl"
+        android:layout_marginLeft="130dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/v_lap"
+        android:text="Lapangan"
+        android:layout_below="@+id/v_tgl"
+        android:layout_marginLeft="50dp"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/t_lap"
+        android:layout_below="@+id/t_jam"
+        android:layout_marginLeft="130dp"
+        android:textSize="18dp"/>
+
+</RelativeLayout>
